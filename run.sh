@@ -11,7 +11,7 @@ export PATH="$PWD/clang/bin:$PATH"
 export ARCH=arm64
 export SUBARCH=arm64
 export KBUILD_BUILD_USER=ZyuxS
-export KBUILD_BUILD_HOST=Action-Github
+export KBUILD_BUILD_HOST=Not-Gaming-Kernel
 export KBUILD_COMPILER_STRING="$PWD/clang"
 
 # Speed up build process
@@ -92,7 +92,7 @@ cp $dtbo AnyKernel3
 cp $dtb AnyKernel3
 rm -f *zip
 cd AnyKernel3
-zip -r9 "../SONIC--${name}-${date}.zip" * -x .git
+zip -r9 "../sweet-${name}-${date}.zip" * -x .git
 cd ..
 rm -rf AnyKernel3/Image.gz
 rm -rf AnyKernel3/dtbo.img
